@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root version="3.0">
+	<properties>
+		<name>Long Rest Reminders</name>
+		<version>0.1</version>
+		<author>mccartysr</author>
+		<description>Displays a specific story entry when a long rest is taken</description>
+		<ruleset>
+			<name>5E</name>
+			<minrelease>8.1</minrelease>
+		</ruleset>
+	</properties>
+	<announcement text="Long Rest Reminders version 0.1 by mccartysr, 2021\rFor instructions type /LRR" font="emotefont" icon="Logo_Mccartysr"/>>
+	<base>
+		<script name="LRRManager" file="scripts/manager_lrr_extension.lua" />
+		<icon name="Logo_Mccartysr" file="logo_mccartysr.png" />
+	</base>
+</root>
